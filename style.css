@@ -10,7 +10,7 @@ body {
     font-weight: 200;
   
     text-align: center;
-    text-shadow: 3px 5px rgb(252, 0, 0);
+    text-shadow: 3px 5px rgb(252, 0, 0), 0 0 50px #f2c94c;
     line-height: 59px;
   
     padding: 0 64px;
@@ -20,6 +20,7 @@ body {
   .stopwatch {
     display: grid;
     justify-items: center;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
     grid-row-gap: 23px;
     width: 100%;
     padding-top: 25px;
